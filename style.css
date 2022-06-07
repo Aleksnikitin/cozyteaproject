@@ -56,7 +56,7 @@ ul.about__navigation-items {
 	align-items: center;
 	height: 700px;
 	width: 1200px;
-	background-image: url("../img/img-mission-background.jpg");
+	background-image: url("/img/img-mission-background.jpg");
 	position: relative;
 	top: 69px;
 	margin: 0 auto;
@@ -132,7 +132,7 @@ ul.about__navigation-items {
 	height: 500px;
 	width: 1200px;
 	margin: 0 auto;
-	background-image: url("../../../Cozy tea project/Cozy tea project/img/img-locations-background.jpg");
+	background-image: url("/img/img-locations-background.jpg");
 }
 
 
