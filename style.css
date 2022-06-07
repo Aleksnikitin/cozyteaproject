@@ -1,0 +1,197 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+}
+
+.about {
+	min-height: 100%;
+	/*чтобы оболочка была на всю высоту экрана*/
+	overflow: hidden;
+	/*чтобы ничего за экран не вылезло*/
+	background-color: black;
+	opacity: 0.9;
+}
+
+.about__navigation {
+	display: flex;
+	position: fixed;
+	top: 0;
+	height: 69px;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1;
+	background-color: black;
+}
+
+ul.about__navigation-items {
+	width: 400px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.about__navigation-items li {
+	display: inline-block;
+	border-bottom: 2px solid white;
+}
+
+.about__logo {
+	display: flex;
+	height: 50px;
+	margin-left: 10px;
+}
+
+.about__banner {
+	margin-bottom: 147px;
+}
+
+.about__banner-pic {
+	display: flex;
+	align-items: center;
+	height: 700px;
+	width: 1200px;
+	background-image: url("../img/img-mission-background.jpg");
+	position: relative;
+	top: 69px;
+	margin: 0 auto;
+}
+
+.about__banner-text {
+	width: 100%;
+	background-color: black;
+}
+
+
+
+.title {
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: bold;
+}
+
+.text {
+	font-size: 1em;
+	display: block;
+	text-align: center;
+	font-weight: bold
+}
+
+
+.about__banner-text .title {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+.about__banner-text .text {
+	margin-bottom: 10px;
+}
+
+
+
+.about__body-layout {
+	width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 85px;
+}
+
+.about__body-text .title {
+	margin-bottom: 30px;
+}
+
+.about__body-options {
+	text-align: center;
+}
+
+.option {
+	display: inline-flex;
+	flex-direction: column;
+	height: 200px;
+	width: 300px;
+	padding: 0 15px;
+	margin: 25px 0;
+}
+
+.option img {
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+.about__locations-wrapper {
+	height: 500px;
+	width: 1200px;
+	margin: 0 auto;
+	background-image: url("../../../Cozy tea project/Cozy tea project/img/img-locations-background.jpg");
+}
+
+
+
+
+.about__locations-row {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.about__locations-row .title {
+	margin-top: 85px;
+}
+
+
+.about__locations-items-body {
+	display: flex;
+}
+
+.locations-item {
+	display: inline-flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: black;
+	width: 300px;
+	margin: 15px 20px;
+}
+
+.locations-item div,
+h3 {
+	padding: 25px 16px;
+}
+
+
+
+
+.about__footer {
+	margin-bottom: 30px;
+}
+
+.about__footer-wrapper {
+	height: 200px;
+	text-align: center;
+}
+
+.about__footer-title {
+	margin: 15px 0 50px 0;
+}
+
+
+
+.about__footer-info h5 {
+	margin: 0 0 37px 0;
+}
+
+.about__footer-copyright {
+	position: relative;
+	left: 20px;
+	text-align: left;
+	margin-top: 38px;
+}
